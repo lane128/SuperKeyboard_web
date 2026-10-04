@@ -1,0 +1,13 @@
+{
+  "name": "superkeyboard-official-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SuperKeyboard bilingual official product website",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node --check app.js && node --check content.js && node --check themes.js && node scripts/check.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
