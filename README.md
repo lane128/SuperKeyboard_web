@@ -52,7 +52,9 @@ config: {
 | `assets/font-sources.json` | 字体来源、版本及 SHA-256 校验值 |
 | `scripts/serve.mjs` | 不依赖第三方包的本地静态服务器 |
 
-语言与外观选择仅保存在浏览器本地；首次访问的外观跟随系统设置。可用 `?lang=zh&theme=light` 或 `?lang=en&theme=dark` 指定初始显示。网站不接入广告、统计、追踪或远程字体服务。
+品牌图标与 iOS 项目保持一致，采用白色日间和炭黑夜间的软键 `S_` 图标。页头、首页和页脚随网页外观切换，浏览器标签图标也同步切换；Apple Touch 图标和分享缩略图使用白色日间版本。原始 PNG 与原生项目一致，小尺寸网页资源由 macOS sips 导出，来源与校验值见 `assets/app-icon-sources.json`。
+
+语言与外观选择仅保存在浏览器本地；未手动选择外观时，页面和图标跟随系统设置及其变化。可用 `?lang=zh&theme=light` 或 `?lang=en&theme=dark` 指定初始显示。网站不接入广告、统计、追踪或远程字体服务。
 
 ## 校验
 

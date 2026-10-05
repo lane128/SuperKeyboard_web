@@ -1,0 +1,457 @@
+{
+  "status": "passed",
+  "date": "2026-10-05",
+  "scope": "Synchronize website branding with the native white daytime / charcoal nighttime S_ icon",
+  "checks": [
+    {
+      "label": "desktop-zh-light",
+      "appearance": "light",
+      "favicon": "assets/favicon-light.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 36,
+            "loaded": true,
+            "source": "assets/app-icon-light-128.png",
+            "width": 36
+          }
+        ],
+        [
+          {
+            "height": 93,
+            "loaded": true,
+            "source": "assets/app-icon-light-512.png",
+            "width": 93
+          }
+        ],
+        [
+          {
+            "height": 30,
+            "loaded": true,
+            "source": "assets/app-icon-light-128.png",
+            "width": 30
+          }
+        ]
+      ],
+      "language": "zh-CN",
+      "themeButton": "切换为夜间模式",
+      "viewport": {
+        "height": 1128,
+        "width": 1289
+      }
+    },
+    {
+      "label": "desktop-en-light",
+      "appearance": "light",
+      "favicon": "assets/favicon-light.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 36,
+            "loaded": true,
+            "source": "assets/app-icon-light-128.png",
+            "width": 36
+          }
+        ],
+        [
+          {
+            "height": 93,
+            "loaded": true,
+            "source": "assets/app-icon-light-512.png",
+            "width": 93
+          }
+        ],
+        [
+          {
+            "height": 30,
+            "loaded": true,
+            "source": "assets/app-icon-light-128.png",
+            "width": 30
+          }
+        ]
+      ],
+      "language": "en",
+      "themeButton": "Switch to dark mode",
+      "viewport": {
+        "height": 1128,
+        "width": 1289
+      }
+    },
+    {
+      "label": "desktop-en-dark",
+      "appearance": "dark",
+      "favicon": "assets/favicon-dark.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 36,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 36
+          }
+        ],
+        [
+          {
+            "height": 93,
+            "loaded": true,
+            "source": "assets/app-icon-dark-512.png",
+            "width": 93
+          }
+        ],
+        [
+          {
+            "height": 30,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 30
+          }
+        ]
+      ],
+      "language": "en",
+      "themeButton": "Switch to light mode",
+      "viewport": {
+        "height": 1128,
+        "width": 1289
+      }
+    },
+    {
+      "label": "desktop-en-dark-reload",
+      "appearance": "dark",
+      "favicon": "assets/favicon-dark.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 36,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 36
+          }
+        ],
+        [
+          {
+            "height": 93,
+            "loaded": true,
+            "source": "assets/app-icon-dark-512.png",
+            "width": 93
+          }
+        ],
+        [
+          {
+            "height": 30,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 30
+          }
+        ]
+      ],
+      "language": "en",
+      "themeButton": "Switch to light mode",
+      "viewport": {
+        "height": 1128,
+        "width": 1289
+      }
+    },
+    {
+      "label": "mobile-en-dark",
+      "appearance": "dark",
+      "favicon": "assets/favicon-dark.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 31,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 31
+          }
+        ],
+        [
+          {
+            "height": 69,
+            "loaded": true,
+            "source": "assets/app-icon-dark-512.png",
+            "width": 69
+          }
+        ],
+        [
+          {
+            "height": 31,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 31
+          }
+        ]
+      ],
+      "language": "en",
+      "themeButton": "Switch to light mode",
+      "viewport": {
+        "height": 900,
+        "width": 390
+      }
+    },
+    {
+      "label": "mobile-en-light",
+      "appearance": "light",
+      "favicon": "assets/favicon-light.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 31,
+            "loaded": true,
+            "source": "assets/app-icon-light-128.png",
+            "width": 31
+          }
+        ],
+        [
+          {
+            "height": 69,
+            "loaded": true,
+            "source": "assets/app-icon-light-512.png",
+            "width": 69
+          }
+        ],
+        [
+          {
+            "height": 31,
+            "loaded": true,
+            "source": "assets/app-icon-light-128.png",
+            "width": 31
+          }
+        ]
+      ],
+      "language": "en",
+      "themeButton": "Switch to dark mode",
+      "viewport": {
+        "height": 900,
+        "width": 390
+      }
+    },
+    {
+      "label": "mobile-zh-light",
+      "appearance": "light",
+      "favicon": "assets/favicon-light.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 31,
+            "loaded": true,
+            "source": "assets/app-icon-light-128.png",
+            "width": 31
+          }
+        ],
+        [
+          {
+            "height": 69,
+            "loaded": true,
+            "source": "assets/app-icon-light-512.png",
+            "width": 69
+          }
+        ],
+        [
+          {
+            "height": 31,
+            "loaded": true,
+            "source": "assets/app-icon-light-128.png",
+            "width": 31
+          }
+        ]
+      ],
+      "language": "zh-CN",
+      "themeButton": "切换为夜间模式",
+      "viewport": {
+        "height": 900,
+        "width": 390
+      }
+    },
+    {
+      "label": "mobile-zh-dark",
+      "appearance": "dark",
+      "favicon": "assets/favicon-dark.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 31,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 31
+          }
+        ],
+        [
+          {
+            "height": 69,
+            "loaded": true,
+            "source": "assets/app-icon-dark-512.png",
+            "width": 69
+          }
+        ],
+        [
+          {
+            "height": 31,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 31
+          }
+        ]
+      ],
+      "language": "zh-CN",
+      "themeButton": "切换为日间模式",
+      "viewport": {
+        "height": 900,
+        "width": 390
+      }
+    },
+    {
+      "label": "mobile-en-dark-final",
+      "appearance": "dark",
+      "favicon": "assets/favicon-dark.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 31,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 31
+          }
+        ],
+        [
+          {
+            "height": 69,
+            "loaded": true,
+            "source": "assets/app-icon-dark-512.png",
+            "width": 69
+          }
+        ],
+        [
+          {
+            "height": 31,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 31
+          }
+        ]
+      ],
+      "language": "en",
+      "themeButton": "Switch to light mode",
+      "viewport": {
+        "height": 900,
+        "width": 390
+      }
+    },
+    {
+      "label": "compact-en-dark",
+      "appearance": "dark",
+      "favicon": "assets/favicon-dark.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 28,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 28
+          }
+        ],
+        [
+          {
+            "height": 69,
+            "loaded": true,
+            "source": "assets/app-icon-dark-512.png",
+            "width": 69
+          }
+        ],
+        [
+          {
+            "height": 28,
+            "loaded": true,
+            "source": "assets/app-icon-dark-128.png",
+            "width": 28
+          }
+        ]
+      ],
+      "language": "en",
+      "themeButton": "Switch to light mode",
+      "viewport": {
+        "height": 900,
+        "width": 320
+      }
+    },
+    {
+      "label": "compact-en-light",
+      "appearance": "light",
+      "favicon": "assets/favicon-light.png",
+      "horizontalOverflow": false,
+      "icons": [
+        [
+          {
+            "height": 28,
+            "loaded": true,
+            "source": "assets/app-icon-light-128.png",
+            "width": 28
+          }
+        ],
+        [
+          {
+            "height": 69,
+            "loaded": true,
+            "source": "assets/app-icon-light-512.png",
+            "width": 69
+          }
+        ],
+        [
+          {
+            "height": 28,
+            "loaded": true,
+            "source": "assets/app-icon-light-128.png",
+            "width": 28
+          }
+        ]
+      ],
+      "language": "en",
+      "themeButton": "Switch to dark mode",
+      "viewport": {
+        "height": 900,
+        "width": 320
+      }
+    }
+  ],
+  "staticValidation": "npm run check passed",
+  "nativeIconHashesMatch": true,
+  "consoleWarningsAndErrors": [],
+  "screenshots": [
+    {
+      "file": "docs/icon-sync-zh-light.jpg",
+      "width": 1289,
+      "height": 1128,
+      "format": "jpeg"
+    },
+    {
+      "file": "docs/icon-sync-en-dark.jpg",
+      "width": 1289,
+      "height": 1128,
+      "format": "jpeg"
+    },
+    {
+      "file": "docs/icon-sync-mobile-zh-light.jpg",
+      "width": 390,
+      "height": 900,
+      "format": "jpeg"
+    },
+    {
+      "file": "docs/icon-sync-mobile-en-dark.jpg",
+      "width": 390,
+      "height": 900,
+      "format": "jpeg"
+    }
+  ],
+  "systemAppearance": "Initial system preference and its change listener are implemented; OS appearance changes were not emulated during this browser check.",
+  "deployment": "Local website project updated; no external deployment performed.",
+  "screenshotNote": "Original browser-native JPEG pixels saved unchanged."
+}

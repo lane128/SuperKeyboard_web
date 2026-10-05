@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-05",
+  "design": "White daytime and charcoal dark nighttime matte S_ keycap",
+  "exportTool": "macOS sips, mechanical resizing only",
+  "icons": [
+    {
+      "appearance": "light",
+      "source": "../SuperKeyboard/Resources/Assets.xcassets/AppIcon.appiconset/icon.png",
+      "file": "app-icon.png",
+      "sha256": "fa95f6806b461f2e10e9f4c1c26a472bbf5deb77877004bdcd9d321a2ad53ee6",
+      "derived": [
+        {
+          "file": "favicon-light.png",
+          "dimensions": "64x64",
+          "sha256": "d9fc2fd4f385afa6412473ed926c9d05f78d3de34e0a2bc28f7bac1d2c0751aa"
+        },
+        {
+          "file": "app-icon-light-128.png",
+          "dimensions": "128x128",
+          "sha256": "118e705e4c27f0ceb4d8a1bb9e71e8e19c86c60c3ba9c6cd3253c56753dcb780"
+        },
+        {
+          "file": "app-icon-light-512.png",
+          "dimensions": "512x512",
+          "sha256": "a2660f4068c262b61575ce4b420e7e5d219f7d72f3a6a12a49d28182a4b3d874"
+        }
+      ]
+    },
+    {
+      "appearance": "dark",
+      "source": "../SuperKeyboard/Resources/Assets.xcassets/AppIcon.appiconset/icon-dark.png",
+      "file": "app-icon-dark.png",
+      "sha256": "92251819516502ae2cd9f8bdf8887fcc25a07e5577982121d33e6c2d95082f93",
+      "derived": [
+        {
+          "file": "favicon-dark.png",
+          "dimensions": "64x64",
+          "sha256": "a81d6be4b992585380f221d688d8fa6831a3fb2f58db79d925e3c068eafb5104"
+        },
+        {
+          "file": "app-icon-dark-128.png",
+          "dimensions": "128x128",
+          "sha256": "ca00fa6389824899a4804082e2c6a111c3412a3d7e97eea3efc3920bb869113f"
+        },
+        {
+          "file": "app-icon-dark-512.png",
+          "dimensions": "512x512",
+          "sha256": "289226b792c13447b55119ce064e72e64ec2c8064f810e63d664686d2cc29ee3"
+        }
+      ]
+    }
+  ]
+}

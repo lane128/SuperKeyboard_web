@@ -4,6 +4,7 @@
   const { config, copy, fonts, screens, themes } = window.SuperKeyboard;
   const root = document.documentElement;
   const query = new URLSearchParams(location.search);
+  const systemAppearance = matchMedia('(prefers-color-scheme: dark)');
   const featured = ['latte', 'lilac', 'tide', 'bauhaus', 'arcade', 'typewriter'];
   const categories = ['all', 'soft', 'minimal', 'classic', 'colorful'];
   const get = id => document.getElementById(id);
@@ -16,6 +17,8 @@
   let selectedScreen = 0;
   let category = 'all';
   let expanded = false;
+  const preferredAppearance = query.get('theme') || read('sk-web-theme');
+  let followsSystemAppearance = preferredAppearance !== 'light' && preferredAppearance !== 'dark';
 
   const local = pair => pair[language === 'zh' ? 0 : 1];
   const t = (key, vars = {}) => {
@@ -30,6 +33,11 @@
     return element;
   };
   const isDark = () => root.dataset.theme === 'dark';
+
+  function updateAppearanceAssets() {
+    get('site-favicon').href = isDark() ? 'assets/favicon-dark.png' : 'assets/favicon-light.png';
+    document.querySelector('meta[name="theme-color"]').content = isDark() ? '#17211b' : '#f7f7ef';
+  }
 
   // Same 4.5:1 legend rule as the native app. Colors below come from its catalog.
   function luminance(hex) {
@@ -267,10 +275,11 @@
     translate();
   });
   get('theme-toggle').addEventListener('click', () => {
+    followsSystemAppearance = false;
     root.dataset.theme = isDark() ? 'light' : 'dark';
     save('sk-web-theme', root.dataset.theme);
     updateURL('theme', root.dataset.theme);
-    document.querySelector('meta[name="theme-color"]').content = isDark() ? '#17211b' : '#f7f7ef';
+    updateAppearanceAssets();
     updateControls();
     renderHero();
     renderGallery();
@@ -342,8 +351,17 @@
     });
   });
 
+  systemAppearance.addEventListener('change', event => {
+    if (!followsSystemAppearance) return;
+    root.dataset.theme = event.matches ? 'dark' : 'light';
+    updateAppearanceAssets();
+    updateControls();
+    renderHero();
+    renderGallery();
+  });
+
   get('copyright-year').textContent = String(new Date().getFullYear());
-  document.querySelector('meta[name="theme-color"]').content = isDark() ? '#17211b' : '#f7f7ef';
+  updateAppearanceAssets();
   translate();
   document.fonts.ready.then(fitFontSample);
   let resizeFrame;
